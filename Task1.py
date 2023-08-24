@@ -4,7 +4,7 @@ def triagle (a, b, c):
 
     if (a == b and b == c and c == a):
         return 'Треугольник равносторонний.'
-    elif (a != b and a != c and b != c):
+    elif a != b and b != c:
         return 'Треугольник разносторонний.'  
     else:
         return 'Треугольник равнобедренный.'  
